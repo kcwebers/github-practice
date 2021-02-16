@@ -18,7 +18,28 @@
 
 .happy {
   background-color: #aaa;
-  background-image: url(/img/DSC03897.jpg);
+  background-image: url(/img/DSC03897.JPG);
   background-size: cover;
 }
 
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+h2 {
+  letter-spacing: 20px;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+}
