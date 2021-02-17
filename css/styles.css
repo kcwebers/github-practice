@@ -1,37 +1,14 @@
-* {
-  box-sizing: border-box;
+body {
+  background-color: black;
 }
 
-/* Create two or more equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 32.5%;
-  padding: 10px;
-  height: 1500px;
-  margin: 10px;
+nav {
+  text-align: center;
+  height: 5vh;
 }
 
-/* Clear floats after the columns */
-.row {
-  clear: both;
-}
-
-.happy {
-  background-color: rgb(215, 151, 218);
-  background-image: url(../img/happy.jpg);
-  background-size: cover;
-}
-
-.normal {
-  font-weight: normal;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.bolder {
-  font-weight: 900;
+a {
+  text-decoration: none;
 }
 
 h2 {
@@ -42,4 +19,92 @@ h2 {
 
 h1 {
   font-family: "Architects Daughter", cursive;
+}
+.content {
+  /* padding: 20px; */
+  min-height: 73vh;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 10px;
+  height: 1000px;
+  margin: 10px;
+}
+
+.row {
+  clear: both;
+  margin: auto;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.site-name {
+  padding: 10px;
+}
+
+.happy {
+  background-color: rgb(215, 151, 218);
+  background-image: url(../img/happy.jpg);
+  background-size: cover;
+}
+
+.links {
+  margin: 30px;
+}
+
+.header {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(233, 143, 210),
+    rgb(255, 255, 255)
+  );
+}
+
+/* footer */
+
+.my-footer {
+  position: relative;
+  top: 4vh;
+  min-height: 100px;
+  clear: both;
+  text-align: center;
+  padding: 3px;
+  background-color: lightgrey;
+  color: black;
+  margin-bottom: -50px;
+}
+
+/* contact */
+.input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #b6b6b6;
+  padding: 20px;
 }
