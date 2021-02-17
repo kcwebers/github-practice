@@ -56,25 +56,12 @@ h1 {
 
 .header {
   background-image: linear-gradient(
-    to bottom right,
+    to bottom left,
     rgb(233, 143, 210),
     rgb(255, 255, 255)
   );
 }
 
-/* footer */
-
-.my-footer {
-  position: relative;
-  top: 4vh;
-  min-height: 100px;
-  clear: both;
-  text-align: center;
-  padding: 3px;
-  background-color: lightgrey;
-  color: black;
-  margin-bottom: -50px;
-}
 
 /* contact */
 .input,
@@ -107,4 +94,37 @@ textarea {
   border-radius: 5px;
   background-color: #b6b6b6;
   padding: 20px;
+}
+
+
+
+/* footer */
+
+.footer {
+  position: relative;
+  top: 4vh;
+  min-height: 100px;
+  width: 100%;
+  clear: both;
+  /* text-align: center; */
+  padding: 3px;
+  background-color: lightgrey;
+  color: black;
+  margin-bottom: -50px;
+}
+
+i {
+  color: black;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.icons {
+  float: left;
+  margin: 20px;
+}
+
+.contacts {
+  float: right;
+  margin: 20px;
 }
